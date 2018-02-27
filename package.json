@@ -8,7 +8,13 @@
     "body-parser": "^1.18.2",
     "botbuilder-azure": "^3.0.4",
     "express": "^4.16.2",
+    "lodash": "^4.17.5",
     "morgan": "^1.9.0",
-    "voxa": "^3.0.0-b"
+    "voxa": "^3.0.0-b",
+    "voxa-opearlo": "^0.2.4"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
   }
 }

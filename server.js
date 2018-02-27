@@ -11,7 +11,7 @@ const _ = require('lodash');
 console.log(`${'Attempting to start.\r\n\t' +
   'Node version: '}${
   process.version
-  }\r\n\tNODE_ENV: ${process.env.NODE_ENV}`);
+  }\r\n\tNODE_ENV: ${process.env.NODE_ENV || 'local'}`);
 
 const app = express();
 
